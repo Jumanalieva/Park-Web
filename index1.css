@@ -1,0 +1,151 @@
+body {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0; 
+  font-family: 'Junge', sans-serif;
+  color: white;
+}
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+.nav-link.active {
+  text-decoration: underline;
+}
+.image-placeholder {
+  width: 100%;
+  height: 50vh; 
+  position: relative;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+.image-placeholder::before {
+  content: "";
+  background-image: url('/Gallery/orange_sunrise2.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  opacity: 0.85; 
+  z-index: 0;
+}
+.header-text {
+  font-size: 1rem;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  z-index: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+.gallery-header {
+  text-align: center;
+  margin-bottom: 2.2rem;
+  font-size: 2.6em;
+  font-weight: bold;
+  color: black; 
+  margin: 2.5em
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+.card-body p {
+  color:black;
+  font-size: 1rem;
+}
+.card-body a {
+  text-decoration: underline;
+  color: darkcyan;
+  font-size: 1rem;
+}
+
+.carousel-item {
+  height: 60vh; 
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: black; 
+  padding: 30px;
+}
+
+.container {
+  margin-top: 20px;
+}
+.col {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.col img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  height: 50vh; 
+  margin: 0 auto; 
+}
+.card-img {
+  height: 100%;
+  object-fit: cover; 
+}
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+}
+
+.gallery-header-2 {
+  text-align: center;
+  margin-top: 8rem;
+  padding: 30px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: white;
+  background-color: black; 
+}
+
+.social-icons i {
+  font-size: 2rem;
+  color: black;
+  margin:  2rem;;
+}
+
+.social-icons i:hover {
+  color: gray;
+}
+
+.social-icons {
+ align-items: center;
+}
+
+.footer {
+  background-color: black;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 4rem;
+  color: white;
+}
